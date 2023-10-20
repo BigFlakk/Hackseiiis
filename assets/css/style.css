@@ -15,6 +15,15 @@ h1 {
 	animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
+#overlay {
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
 #layer-0 {
 	background: rgba(92,71,255,0);
 	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,71,255,1) 100%);
@@ -178,4 +187,32 @@ h1 {
 	to {
 		height: 540px;
 	}
+}
+
+/* Estilos boton */
+.container__button {
+    background-color: lightgray;
+    position: absolute;
+    bottom: 50%;
+    width: 300px;
+}
+
+
+
+.button__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.button__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
