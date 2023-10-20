@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EyGqf9LdcxVcWZEdddk7C492ruM3X83zZFtOutSYF7VScrEo3jnB8hVFDVAPLsZ50MoZV8TioroLDfp6BXubfA==",
+  "dgSpecHash": "XpUxX/K/7OYAr9l+BN8fGyzW5godaebXSb2xhr1YMy2TvcDaipP8Ftk7cdoZkcVHA84fkE2tpunxEDXgRyfe9Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\SalaPc2\\Downloads\\Hackseiiis\\Hackseiiis.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\SalaPc2\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\SalaPc2\\.nuget\\packages\\microsoft.jsinterop\\7.0.12\\microsoft.jsinterop.7.0.12.nupkg.sha512",
     "C:\\Users\\SalaPc2\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.12\\microsoft.jsinterop.webassembly.7.0.12.nupkg.sha512",
+    "C:\\Users\\SalaPc2\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\SalaPc2\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\SalaPc2\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\SalaPc2\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
