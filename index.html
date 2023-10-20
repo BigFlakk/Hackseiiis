@@ -35,20 +35,27 @@
             <div class="form__content">
                 <div class="form__left">
                     <p class="form__description">
-                        Ingresa un número y obtén un hecho interesante relacionado con ese número.
+                        Ingresa un número y obtén un hecho <br> interesante relacionado con ese número.
                     </p>
                     <input type="number" id="number-input" placeholder="Ingrese un número" class="form__input" required
                         maxlength="4" inputmode="none">
                     <button id="get-fact-button" class="form__btn">Obtener hecho</button>
-                    <div id="fact-result">
-                        <!-- Aquí se mostrará el resultado de la API -->
-                    </div>
+                    
                 </div>
                 <div class="form__right">
-                    
+                    <label for="opciones" class="form__description">Selecciona una opción:</label>
+                    <select id="opciones" name="opcion" class="form__select">
+                        <option value="Trivia">Trivia</option>
+                        <option value="Year">Year</option>
+                        <option value="Date">Date</option>
+                        <option value="Math">Math</option>
+                    </select>
                 </div>
             </div>
         </section>
+        <div class="fact-result">
+            <p class="form__result">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+        </div>
     </main>
 </body>
 
