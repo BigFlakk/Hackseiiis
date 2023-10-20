@@ -2,22 +2,63 @@
 @inject HttpClient Http
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
-<h2>EL numero es: @Num</h2>
-
-Welcome to your new app. 
-@*randomFact.num = @Num;*@
-<!--<SurveyPrompt Title="How is Blazor working for you?" /> -->
-<p>@randomFact.text</p>
+<!--<p>@randomFact.text</p>-->
 @if (randomFact.text == null)
 {
     <p><em>Loading...</em></p>
 }
 else
 {
-    <div>
-        <strong>@randomFact.text</strong>
-    </div>
+    <main>
+        <section class="banner__container">
+            <div id="overlay">
+                <h1>TECHDEA NUMERIC</h1>
+            </div>
+            <div id="hey">
+                <div id="layer-up"></div>
+            </div>
+            <div id="layer-0">
+
+                <div id="layer-1">
+                    <div id="layer-2">
+                        <div id="lines">
+                            <div id="layer-corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mtnZZZ"></div>
+        </section>
+        <section class="container__form">
+            <h3 class="form__subtitle">Obtener un hecho sobre un número</h3>
+            <div class="form__content">
+                <div class="form__left">
+                    <p class="form__description">
+                        Ingresa un número y obtén un hecho <br> interesante relacionado con ese número.
+                    </p>
+                    <input type="number" id="number-input" placeholder="Ingrese un número" class="form__input" required
+                        maxlength="4" inputmode="none" value=@Num>
+
+                    <button id="get-fact-button" class="form__btn" onclick=miFuncion()>Obtener hecho</button>
+                    
+                </div>
+                <div class="form__right">
+                    <label for="opciones" class="form__description">Selecciona una opción:</label>
+                    <select id="opciones" name="opcion" class="form__select">
+                        <option value="Trivia">Trivia</option>
+                        <option value="Year">Year</option>
+                        <option value="Date">Date</option>
+                        <option value="Math">Math</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <div class="fact-result">
+            <p class="form__result"><strong>@randomFact.text</strong></p>
+        </div>
+    </main>
 }
 
 
@@ -25,7 +66,10 @@ else
 @code {
     [Parameter] public int Num { get; set; }
     RandomFact randomFact = new RandomFact();
-
+    void miFuncion(int k)
+    {
+        //
+    }
     protected override async Task OnInitializedAsync()
     {
         try
@@ -40,7 +84,6 @@ else
             Console.WriteLine("Error: " + ex.Message);
         }
     }
-
 
     public class RandomFact
     {

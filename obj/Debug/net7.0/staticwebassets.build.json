@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xzeJmCq5TXbmuq/wuZ0aJFtsdM6lh3bipIVhtcqqcyM=",
+  "Hash": "yuqQLKWJU7oDl0sX8PE0Qqk7gv2AO64ARA0D5Z+B6PM=",
   "Source": "Hackseiiis",
   "BasePath": "/",
   "Mode": "Root",
@@ -7140,6 +7140,23 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
+      "Identity": "C:\\Users\\SalaPc2\\Downloads\\Hackseiiis\\wwwroot\\css\\style.css",
+      "SourceId": "Hackseiiis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SalaPc2\\Downloads\\Hackseiiis\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
       "Identity": "C:\\Users\\SalaPc2\\Downloads\\Hackseiiis\\wwwroot\\favicon.png",
       "SourceId": "Hackseiiis",
       "SourceType": "Discovered",
@@ -7189,23 +7206,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\SalaPc2\\Downloads\\Hackseiiis\\wwwroot\\sample-data\\random.json",
-      "SourceId": "Hackseiiis",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SalaPc2\\Downloads\\Hackseiiis\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "sample-data/random.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\random.json"
     },
     {
       "Identity": "C:\\Users\\SalaPc2\\Downloads\\Hackseiiis\\wwwroot\\sample-data\\weather.json",

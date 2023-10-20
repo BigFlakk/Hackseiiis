@@ -199,13 +199,13 @@
       "mscorlib.dll": "sha256-8OmdVHzoN7xteY5ehp0L8R17I9QxFkH2lUVHFuslE0s=",
       "netstandard.dll": "sha256-urq+e2ZQXxmOWMRxTR92529HnUVu6+kyVnfF6SoLad8=",
       "System.Private.CoreLib.dll": "sha256-ixnF\/wVKLHZM1N0lfJufpZ41EC2LvvyiSqdW43h3Xew=",
-      "Hackseiiis.dll": "sha256-fUz0U+V6RHpTIcAxZjR4StwACHxsUq+yq9nT5YQskIM="
+      "Hackseiiis.dll": "sha256-Iu6lI9jt8FKTONmZ75szPUwMd1jxm7lRKqfgGsfNso8="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Hackseiiis.pdb": "sha256-EhOi3wlp5ZxY+bDD0pkbOlSV4HRQGnaYxayfiWYEdVI="
+      "Hackseiiis.pdb": "sha256-3\/Nk7lcRfD73fbbHOC5qkwgMQsY3aEV5CWbVvkJcI38="
     },
     "runtime": {
       "dotnet.7.0.12.9hik1i16zs.js": "sha256-cPJgWy8SjMaYFeimGkYy23ls+rDZVmoC\/eMoHpqRc+4=",
