@@ -11,7 +11,7 @@ body {
 	font-size: 2em;
 }
 
-h1 {
+h1,h3 {
 	animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
@@ -190,29 +190,82 @@ h1 {
 }
 
 /* Estilos boton */
-.container__button {
-    background-color: lightgray;
-    position: absolute;
-    bottom: 50%;
-    width: 300px;
+.container__form{
+	position: absolute;
+	top: 19%;
+	left: 12.5%;
+	right: 12.5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-
-
-.button__item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
+.form__subtitle{
+	align-items: center;
+	justify-content: center;
 }
 
-.button__items {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.form__description {
+	font-weight: 400;
+	font-size: 28px;
+	text-align: center;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
+.form__input {
+	background-color: transparent;
+	border: none;
+	border-style: none;
+	border-radius: 8px;
+	color: white;
+	width: 150px;
+	padding: 10px;
+	animation: neon-glow 1.5s ease-in-out infinite alternate;
+
 }
+
+.form__content {
+	border: 1px solid ;
+	border-radius: 12px;
+	padding: 15px;
+	animation: neon-glow 1.5s ease-in-out infinite alternate;
+	display: flex;	
+	align-items: center;
+}
+
+.form__left {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 2;
+}
+
+.form__right {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.form__btn {
+	background-color: transparent;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	margin-top: 20px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.form__btn:hover {
+	background-color: rgba(61, 220, 176, 0.5);
+	transition: 300ms ease-in-out;
+}
+
+@keyframes neon-glow {
+	0% {
+	  box-shadow: 0 0 10px rgba(52, 152, 219, 0.7);
+	}
+	100% {
+	  box-shadow: 0 0 30px rgba(52, 152, 219, 0.7), 0 0 30px rgba(52, 152, 219, 0.7), 0 0 40px rgba(52, 152, 219, 0.7);
+	}
+  }
